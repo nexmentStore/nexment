@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Legal | Nexment</title>
+<meta name="description" content="Nexment is a digital resource store offering premium ebooks and learning materials designed to help you learn faster and build valuable skills.">
+
+<meta name="keywords" content="Nexment, ebooks, digital resources, online learning ebooks, skill development ebooks, AI learning resources, productivity guides, freelancing guides, digital learning materials">
+
+<meta name="author" content="Nexment">
+
+<meta name="robots" content="index, follow">
+
+<meta name="language" content="English">
+
+<meta name="revisit-after" content="7 days">
+
+<meta name="distribution" content="global">
+
+<meta name="rating" content="general">
+
+<meta name="theme-color" content="#4F46E5">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/legal.css">
+
+<script src="https://kit.fontawesome.com/be695597a3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+<header class="navbar">
+
+<div class="nav-container">
+
+<div class="brand">
+<img src="../assets/logo.png">
+<span>Nexment</span>
+</div>
+
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="products.html">Store</a>
+<a href="about.html">About</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+</nav>
+
+<div class="mobile-icons">
+
+<a href="cart.html" class="mobile-cart">
+<i class="fa-solid fa-cart-shopping"></i>
+</a>
+
+<button id="menuBtn">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+
+<div id="sidebar" class="sidebar">
+
+<div class="sidebar-header">
+
+<span>Menu</span>
+
+<button id="closeSidebar">
+<i class="fa-solid fa-xmark"></i>
+</button>
+
+</div>
+
+<a href="index.html">Home</a>
+<a href="products.html">Store</a>
+<a href="about.html">About</a>
+<a href="cart.html">Cart</a>
+<a href="profile.html">Profile</a>
+
+</div>
+
+
+
+<section class="legal-hero">
+
+<div class="container">
+
+<h1>Legal Information</h1>
+
+<p>
+This page outlines the legal policies governing the use of Nexment.
+Please read these terms carefully before purchasing or using any
+digital resources on our platform.
+</p>
+
+<span id="legalDate"></span>
+
+</div>
+
+</section>
+
+
+
+<section class="legal-content">
+
+<div class="container">
+
+<h2>Privacy Policy</h2>
+
+<p>
+At Nexment, we respect your privacy and are committed to protecting
+your personal information. When you create an account or make a
+purchase, we may collect information such as your name, email address,
+and purchase history.
+</p>
+
+<p>
+This information is used solely to provide access to purchased
+resources, improve our services, and communicate important updates
+related to your account.
+</p>
+
+<p>
+We do not sell, rent, or share your personal data with third parties
+except when required for payment processing or legal compliance.
+</p>
+
+<p>
+All payments are securely processed through trusted payment providers,
+and Nexment does not store sensitive payment information.
+</p>
+
+
+
+<h2>Terms & Conditions</h2>
+
+<p>
+By accessing or purchasing from Nexment, you agree to comply with the
+terms outlined on this page.
+</p>
+
+<p>
+All digital products available on Nexment are protected by copyright
+laws and are intended for personal use only. Redistribution, resale,
+or unauthorized sharing of purchased materials is strictly prohibited.
+</p>
+
+<p>
+Users are responsible for maintaining the confidentiality of their
+account credentials. Nexment is not liable for unauthorized access
+resulting from shared login details.
+</p>
+
+<p>
+We reserve the right to modify or update our products, services, and
+policies at any time to improve the user experience or comply with
+legal requirements.
+</p>
+
+
+
+<h2>No Refund Policy</h2>
+
+<p>
+Due to the nature of digital products, all purchases made on Nexment
+are final and non-refundable.
+</p>
+
+<p>
+Once a digital product has been purchased and delivered, it cannot be
+returned or exchanged. This policy helps protect the integrity of our
+digital resources and prevents misuse of downloadable content.
+</p>
+
+<p>
+If you experience technical issues accessing your purchased resources,
+please contact our support team. We will work to resolve the issue as
+quickly as possible.
+</p>
+
+<p>
+Our goal is to provide high-quality learning resources. If you have
+questions before purchasing a product, we encourage you to review the
+product description carefully or contact us for clarification.
+</p>
+
+</div>
+
+</section>
+
+
+
+<script src="js/ui.js"></script>
+
+<script>
+
+const today = new Date()
+
+const day = String(today.getDate()).padStart(2,'0')
+const month = String(today.getMonth()+1).padStart(2,'0')
+const year = today.getFullYear()
+
+document.getElementById("legalDate").textContent =
+"Last updated: " + day + "-" + month + "-" + year
+
+</script>
+
+
+</body>
+</html>
