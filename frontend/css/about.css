@@ -1,0 +1,118 @@
+.container{
+max-width:1000px;
+margin:auto;
+padding:0 20px;
+}
+
+.about-hero{
+padding:80px 20px;
+background:#F9FAFB;
+text-align:center;
+}
+
+.about-hero h1{
+font-size:36px;
+margin-bottom:16px;
+}
+
+.about-hero p{
+color:#4B5563;
+max-width:650px;
+margin:auto;
+line-height:1.6;
+}
+
+.about-content{
+padding:70px 20px;
+background:white;
+}
+
+.about-block{
+margin-bottom:50px;
+}
+
+.about-block h2{
+margin-bottom:12px;
+font-size:26px;
+}
+
+.about-block p{
+color:#4B5563;
+line-height:1.7;
+margin-bottom:12px;
+}
+
+.contact-section{
+padding:70px 20px;
+background:#F9FAFB;
+}
+
+.contact-section h2{
+text-align:center;
+margin-bottom:10px;
+}
+
+.contact-note{
+text-align:center;
+color:#6B7280;
+margin-bottom:40px;
+}
+
+.feedback-form{
+max-width:600px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+border:1px solid #E5E7EB;
+}
+
+.form-group{
+display:flex;
+flex-direction:column;
+margin-bottom:18px;
+}
+
+.form-group label{
+margin-bottom:6px;
+font-weight:500;
+}
+
+.form-group input,
+.form-group textarea{
+padding:12px;
+border:1px solid #E5E7EB;
+border-radius:6px;
+}
+
+#currentDate{
+padding:10px;
+color:#4B5563;
+}
+
+.submit-btn{
+background:#4F46E5;
+color:white;
+border:none;
+padding:12px;
+border-radius:8px;
+font-weight:600;
+cursor:pointer;
+width:100%;
+}
+
+.submit-btn:hover{
+background:#4338CA;
+}
+
+@media(max-width:768px){
+
+.about-hero h1{
+font-size:28px;
+}
+
+.feedback-form{
+padding:20px;
+}
+
+}
